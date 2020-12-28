@@ -12,7 +12,7 @@ C3.2: Al recibir dos cadenas de string vacias se debe devolver un false.
 C3.3: Si se determina que dos palabras son isomorficas se debe devolver un true, en el caso contrario un false.
 
 ## Escenarios de prueba: 
-C3.1.1: "abcd" "ab" = false
+C3.1.1: "abcd" "ab" = false 
 C3.2.1: "" "" = false
 C3.3.1: "wxyz" "gato" = true
 c3.3.2: "abcd" "abbb" = false

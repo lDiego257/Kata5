@@ -6,5 +6,7 @@
   (testing "Escenario 311"
     (is (= (-kata5 "abcd" "ab") false)))
   
+   (testing "Escenario 312 cadenas vacias = false"
+    (is (= (-kata5 "" "") false)))
   
   )
