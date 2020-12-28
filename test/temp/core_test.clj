@@ -12,4 +12,6 @@
      (testing "Escenario 331 gato wxyz = true"
     (is (= (-kata5 "wxyz" "gato") true)))
   
+     (testing "Escenario 332 abcd abbb = false"
+    (is (= (-kata5 "abcd" "abbb") false)))
   )
