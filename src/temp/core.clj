@@ -7,7 +7,10 @@
   (def Isomorfica (atom false))
   
   (if (= (count str1) (count str2))
-    (reset! Isomorfica false)
+    (if (> (count str1) 0)
+      (reset! Isomorfica true)
+      (reset! Isomorfica false)
+      )
     (reset! Isomorfica false)
     )
   
