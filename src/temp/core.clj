@@ -1,7 +1,9 @@
 (ns temp.core
   (:gen-class))
 
-(defn -main
+(defn -kata5
   "I don't do a whole lot ... yet."
-  [& args]
-  (println "Hello, World!"))
+  [str1 str2]
+  (def Isomorfica (atom false))
+  (= @Isomorfica true)
+  )

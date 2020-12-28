@@ -3,5 +3,8 @@
             [temp.core :refer :all]))
 
 (deftest a-test
-  (testing "FIXME, I fail."
-    (is (= 0 1))))
+  (testing "Escenario 311"
+    (is (= (-kata5 "abcd" "ab") false)))
+  
+  
+  )
